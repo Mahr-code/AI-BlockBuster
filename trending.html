@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending - AI News Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-robot"></i>
+                    <span>AI News Hub</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="home.html" class="nav-link">Home</a></li>
+                    <li><a href="latest.html" class="nav-link">
+                        <i class="fa fa-clock"></i> Latest
+                    </a></li>
+                    <li><a href="trending.html" class="nav-link active">Trending</a></li>
+                    <li><a href="research.html" class="nav-link">Research</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Trending AI News</h1>
+            <p class="page-subtitle">Discover what's hot in the world of artificial intelligence</p>
+        </div>
+    </section>
+
+    <!-- Trending Topics -->
+    <section class="trending">
+        <div class="container">
+            <h2 class="section-title">Trending Topics</h2>
+            <div class="trending-grid" id="trendingGrid">
+                <!-- Trending topics will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending News -->
+    <section class="trending-news">
+        <div class="container">
+            <h2 class="section-title">Trending Articles</h2>
+            <div class="news-grid" id="trendingNewsGrid">
+                <!-- Trending news will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-robot"></i>
+                        <span>AI News Hub</span>
+                    </div>
+                    <p>Your trusted source for artificial intelligence news and insights.</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="https://example.com/machine-learning" target="_blank">Machine Learning</a></li>
+                        <li><a href="https://example.com/deep-learning" target="_blank">Deep Learning</a></li>
+                        <li><a href="https://example.com/nlp" target="_blank">Natural Language Processing</a></li>
+                        <li><a href="https://example.com/computer-vision" target="_blank">Computer Vision</a></li>
+                        <li><a href="https://example.com/robotics" target="_blank">Robotics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Research Papers</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Tools</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AI News Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
